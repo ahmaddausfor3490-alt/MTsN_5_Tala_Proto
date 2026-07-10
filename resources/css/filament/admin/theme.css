@@ -1,0 +1,56 @@
+.fi-body {
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Override oversized headings caused by Tailwind @theme text-5xl inheritance */
+.fi-body h1,
+.fi-page-header h1,
+.fi-card .fi-section-header-content h1,
+.fi-typography h1,
+.fi-heading {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 600 !important;
+}
+
+.fi-body h2,
+.fi-typography h2 {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 600 !important;
+}
+
+.fi-body h3,
+.fi-typography h3 {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 600 !important;
+}
+
+.fi-body h4,
+.fi-typography h4 {
+    font-size: 0.9375rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 600 !important;
+}
+
+.fi-body h5,
+.fi-typography h5 {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+    font-weight: 600 !important;
+}
+
+.fi-body h6,
+.fi-typography h6 {
+    font-size: 0.8125rem !important;
+    line-height: 1.25rem !important;
+    font-weight: 600 !important;
+}
+
+/* Ensure Inter font for page titles */
+.fi-topbar .fi-topbar-navbar-overlay-header-title,
+.fi-sidebar-header .fi-sidebar-header-brand,
+.fi-footer .fi-footer-content {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}

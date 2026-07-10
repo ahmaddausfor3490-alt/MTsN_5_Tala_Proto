@@ -1,0 +1,47 @@
+.fi-body {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+.fi-typography h1,
+.fi-heading,
+.fi-card > .fi-header-wrap > .fi-section-header-content > h1,
+.fi-page-actions .fi-btn-group .fi-btn .fi-label {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Override oversized headings caused by Tailwind @theme text-5xl inheritance */
+.fi-body h1 {
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    line-height: 1.75 !important;
+}
+
+.fi-body h2 {
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+    line-height: 1.75 !important;
+}
+
+.fi-body h3 {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    line-height: 1.5 !important;
+}
+
+.fi-body h4 {
+    font-size: 0.9375rem !important;
+    font-weight: 600 !important;
+    line-height: 1.5 !important;
+}
+
+.fi-body h5 {
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    line-height: 1.25 !important;
+}
+
+.fi-body h6 {
+    font-size: 0.8125rem !important;
+    font-weight: 600 !important;
+    line-height: 1.25 !important;
+}

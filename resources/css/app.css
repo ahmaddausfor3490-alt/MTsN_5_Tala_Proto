@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+    /* Brand palette */
+    --color-brand-green:          var(--color-emerald-900);
+    --color-brand-green-light:    var(--color-emerald-800);
+    --color-brand-accent:         var(--color-amber-600);
+
+    /* Explicit breakpoints */
+    --breakpoint-xs: 20rem;
+    --breakpoint-sm: 40rem;
+    --breakpoint-md: 48rem;
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 80rem;
+    --breakpoint-2xl: 96rem;
+
+    /* Font family */
+    --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+    /* Typography scales */
+    --text-xs:    0.75rem;
+    --text-sm:    0.875rem;
+    --text-base:  1rem;
+    --text-lg:    1.125rem;
+    --text-xl:    1.25rem;
+    --text-2xl:   1.5rem;
+    --text-3xl:   1.875rem;
+    --text-4xl:   2.25rem;
+    --text-5xl:   3rem;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-gray-900 antialiased;
+    }
+}
+
+@layer utilities {
+    .nav-over-hero {
+        transition: background-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+    }
+    .nav-solid {
+        background-color: rgba(255, 255, 255, 0.97);
+        backdrop-filter: blur(8px);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    }
+}
